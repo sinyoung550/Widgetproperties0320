@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WidgetProperties</string>
+    <string name="but_str1">Click Button</string>
+    <string name="text1">text Size</string>
+    <string name="text2">text Color</string>
+    <string name="text3">text Typeface</string> <!--글꼴 모양-->
+    <string name="text4">text Style</string>
+    <string name="text5">text Sigle Line text Sigle Line text Sigle Line text Sigle Line</string>
+</resources>
+<!--app_name은 바꾸면 안됌-->

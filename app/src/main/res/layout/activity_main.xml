@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tlsdu.widgetproperties.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/but_str1"
+        android:textSize="20sp"
+        android:background="#9bc0ff"
+        android:textColor="#e3fcff"
+        android:padding="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/but_str1"
+        android:textSize="20sp"
+        android:background="#9bc0ff"
+        android:textColor="#e3fcff"
+        android:padding="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:visibility="gone"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/but_str1"
+        android:textSize="20sp"
+        android:background="#9bc0ff"
+        android:textColor="#e3fcff"
+        android:padding="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+
+        />
+
+    <!-- res - values - string에서 이름 지정한것 >> but_str1 -->
+    <!-- 16라인 padding : 안쪽여백 지정-->
+    <!-- 17라인 marginLeft : 왼쪽 바깥여백 지정 , Top은 위쪽 바깥여백 지정-->
+</LinearLayout>
